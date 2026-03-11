@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Application/Application.csproj" Id="4bbdb9f6-8f6e-462c-929a-c43b19408313" />
+  <Project Path="Domain/Domain.csproj" Id="e3782e3f-cedb-4b59-a743-934ce820dbfe" />
+  <Project Path="event-management-server/event-management-server.csproj" />
+  <Project Path="Infrastructure/Infrastructure.csproj" Id="4921fc19-0c82-4fee-beea-87fee6644f04" />
+</Solution>

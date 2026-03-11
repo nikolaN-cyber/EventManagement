@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nignite\\source\\repos\\event-management-server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BBDB9F6-8F6E-462C-929A-C43B19408313}|Application\\Application.csproj|c:\\users\\nignite\\source\\repos\\event-management-server\\application\\users\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BBDB9F6-8F6E-462C-929A-C43B19408313}|Application\\Application.csproj|solutionrelative:application\\users\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{940C8CDA-6BBE-6553-030C-CD8A0B363365}|event-management-server\\event-management-server.csproj|c:\\users\\nignite\\source\\repos\\event-management-server\\event-management-server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{940C8CDA-6BBE-6553-030C-CD8A0B363365}|event-management-server\\event-management-server.csproj|solutionrelative:event-management-server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BBDB9F6-8F6E-462C-929A-C43B19408313}|Application\\Application.csproj|c:\\users\\nignite\\source\\repos\\event-management-server\\application\\users\\commands\\usercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BBDB9F6-8F6E-462C-929A-C43B19408313}|Application\\Application.csproj|solutionrelative:application\\users\\commands\\usercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3782E3F-CEDB-4B59-A743-934CE820DBFE}|Domain\\Domain.csproj|c:\\users\\nignite\\source\\repos\\event-management-server\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3782E3F-CEDB-4B59-A743-934CE820DBFE}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{940C8CDA-6BBE-6553-030C-CD8A0B363365}|event-management-server\\event-management-server.csproj|c:\\users\\nignite\\source\\repos\\event-management-server\\event-management-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{940C8CDA-6BBE-6553-030C-CD8A0B363365}|event-management-server\\event-management-server.csproj|solutionrelative:event-management-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BBDB9F6-8F6E-462C-929A-C43B19408313}|Application\\Application.csproj|c:\\users\\nignite\\source\\repos\\event-management-server\\application\\users\\commands\\iusercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BBDB9F6-8F6E-462C-929A-C43B19408313}|Application\\Application.csproj|solutionrelative:application\\users\\commands\\iusercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{940C8CDA-6BBE-6553-030C-CD8A0B363365}|event-management-server\\event-management-server.csproj|c:\\users\\nignite\\source\\repos\\event-management-server\\event-management-server\\event-management-server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{940C8CDA-6BBE-6553-030C-CD8A0B363365}|event-management-server\\event-management-server.csproj|solutionrelative:event-management-server\\event-management-server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BBDB9F6-8F6E-462C-929A-C43B19408313}|Application\\Application.csproj|c:\\users\\nignite\\source\\repos\\event-management-server\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4BBDB9F6-8F6E-462C-929A-C43B19408313}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\nignite\\source\\repos\\event-management-server\\event-management-server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "event-management-server\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\nignite\\source\\repos\\event-management-server\\event-management-server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "event-management-server\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T15:22:29.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nignite\\source\\repos\\event-management-server\\event-management-server\\Program.cs",
+              "RelativeDocumentMoniker": "event-management-server\\Program.cs",
+              "ToolTip": "C:\\Users\\nignite\\source\\repos\\event-management-server\\event-management-server\\Program.cs",
+              "RelativeToolTip": "event-management-server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T15:19:49.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "event-management-server",
+              "DocumentMoniker": "C:\\Users\\nignite\\source\\repos\\event-management-server\\event-management-server\\event-management-server.csproj",
+              "RelativeDocumentMoniker": "event-management-server\\event-management-server.csproj",
+              "ToolTip": "C:\\Users\\nignite\\source\\repos\\event-management-server\\event-management-server\\event-management-server.csproj",
+              "RelativeToolTip": "event-management-server\\event-management-server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-11T15:00:54.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserCommandService.cs",
+              "DocumentMoniker": "C:\\Users\\nignite\\source\\repos\\event-management-server\\Application\\Users\\Commands\\UserCommandService.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\Commands\\UserCommandService.cs",
+              "ToolTip": "C:\\Users\\nignite\\source\\repos\\event-management-server\\Application\\Users\\Commands\\UserCommandService.cs",
+              "RelativeToolTip": "Application\\Users\\Commands\\UserCommandService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T15:13:47.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserCommandService.cs",
+              "DocumentMoniker": "C:\\Users\\nignite\\source\\repos\\event-management-server\\Application\\Users\\Commands\\IUserCommandService.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\Commands\\IUserCommandService.cs",
+              "ToolTip": "C:\\Users\\nignite\\source\\repos\\event-management-server\\Application\\Users\\Commands\\IUserCommandService.cs",
+              "RelativeToolTip": "Application\\Users\\Commands\\IUserCommandService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T15:02:09.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nignite\\source\\repos\\event-management-server\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "C:\\Users\\nignite\\source\\repos\\event-management-server\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T14:23:22.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nignite\\source\\repos\\event-management-server\\Application\\Users\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\nignite\\source\\repos\\event-management-server\\Application\\Users\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Application\\Users\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T14:19:19.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\nignite\\source\\repos\\event-management-server\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\nignite\\source\\repos\\event-management-server\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-11T14:17:30.638Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
