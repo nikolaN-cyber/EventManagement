@@ -17,5 +17,6 @@ namespace Domain
         public int OrganizerId { get; set; }
         public User Organizer { get; set; } = null;
         public List<EventAttendance> Attendees { get; set; } = new List<EventAttendance>();
+        public List<Review> Reviews { get; set; } = new List<Review>();
     }
 }

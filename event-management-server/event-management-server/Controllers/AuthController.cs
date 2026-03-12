@@ -18,12 +18,12 @@ namespace event_management_server.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Loginuser([FromBody] LoginQuery query)
         {
-            var response = await _mediator.Send(query);
-            if (response == null)
+            var result = await _mediator.Send(query);
+            if (result == null)
             {
                 return Unauthorized(new { Message = "Invalid email or password" });
             }
-            return Ok(response);
+            return Ok(result);
         }
     }
 }

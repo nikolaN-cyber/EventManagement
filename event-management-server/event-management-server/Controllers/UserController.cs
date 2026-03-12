@@ -18,12 +18,12 @@ namespace event_management_server.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterQuery query)
         {
-            var response = await _mediator.Send(query);
-            if (response == null)
+            var result = await _mediator.Send(query);
+            if (result == null)
             {
                 return new BadRequestObjectResult(new { Message = "User with that email already exists." });
             }
-            return CreatedAtAction(nameof(Register), response);
+            return CreatedAtAction(nameof(Register), result);
         }
     }
 }

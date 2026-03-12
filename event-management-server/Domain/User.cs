@@ -11,5 +11,6 @@
         public byte[]? ProfileImage { get; set; }
         public List<Event> OrganizedEvents { get; set; } = new List<Event>();
         public List<EventAttendance> AttendingEvents { get; set; } = new List<EventAttendance>();
+        public List<Review> UserReviews { get; set; } = new List<Review>();
     }
 }

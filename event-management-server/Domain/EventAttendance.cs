@@ -12,8 +12,6 @@ namespace Domain
 
         public int EventId { get; set; }
         public Event Event { get; set; } = null;
-
-
         public DateTime RegisteredAt { get; set; } = DateTime.UtcNow;
     }
 }
