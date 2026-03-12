@@ -1,4 +1,3 @@
-using Application.Users.Commands;
 using Application.Users.DTOs;
 using Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -36,6 +35,8 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(LoginQuery).Assembly));
+
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 

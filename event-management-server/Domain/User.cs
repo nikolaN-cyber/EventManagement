@@ -9,7 +9,6 @@
         public string Email { get; set; }
         public string HashedPassword { get; set; }
         public byte[]? ProfileImage { get; set; }
-
         public List<Event> OrganizedEvents { get; set; } = new List<Event>();
         public List<EventAttendance> AttendingEvents { get; set; } = new List<EventAttendance>();
     }
