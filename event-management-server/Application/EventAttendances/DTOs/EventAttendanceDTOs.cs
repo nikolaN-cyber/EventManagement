@@ -1,10 +1,7 @@
 ﻿using Application.Types;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Application.EventAttendance.DTOs;
+namespace Application.EventAttendances.DTOs;
 
 public record CreateEventAttendanceQuery(int EventId) : IRequest<Result<EventAttendanceResponse>>;
 

@@ -1,5 +1,4 @@
-﻿using Application.EventAttendance.DTOs;
-using Application.Types;
+﻿using Application.EventAttendances.DTOs;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

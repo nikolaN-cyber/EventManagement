@@ -1,11 +1,11 @@
-﻿using Application.EventAttendance.DTOs;
+﻿using Application.EventAttendances.DTOs;
 using Application.Types;
 using Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 
-namespace Application.EventAttendance.Commands
+namespace Application.EventAttendances.Commands
 {
     public class CreateEventAttendanceHandler : IRequestHandler<CreateEventAttendanceQuery, Result<EventAttendanceResponse>>
     {

@@ -26,16 +26,23 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-
-
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngularClient",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:4200")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
-
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(LoginQuery).Assembly));
-
 builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
@@ -47,6 +54,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors("AllowAngularClient");
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

@@ -29,7 +29,16 @@ namespace Application.Users.Queries
                 return null;
             }
             var token = GenerateJwtToken(user);
-            return new LoginResponse(token);
+            var loginResponse = new LoginResponse
+                (
+                    user.Username,
+                    user.FirstName,
+                    user.LastName,
+                    user.Email,
+                    user.ProfileImage,
+                    token
+                );
+            return loginResponse;
         }
 
         private string GenerateJwtToken(User User)

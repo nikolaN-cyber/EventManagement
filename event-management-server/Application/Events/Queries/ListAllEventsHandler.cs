@@ -34,7 +34,9 @@ namespace Application.Events.Queries
                     e.Location,
                     e.Image,
                     e.Description,
-                    e.OrganizerId
+                    e.OrganizerId,
+                    e.Organizer.FirstName,
+                    e.Organizer.LastName
                     )).ToListAsync(cancellationToken);
 
             return Result<List<EventResponse>>.Success(events);

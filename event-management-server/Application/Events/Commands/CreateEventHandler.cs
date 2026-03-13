@@ -8,7 +8,7 @@ using Domain;
 
 namespace Application.Events.Commands
 {
-    public class CreateEventHandler : IRequestHandler<CreateEventQuery, Result<EventResponse>> 
+    public class CreateEventHandler : IRequestHandler<CreateEventQuery, Result<bool>> 
     {
         private readonly AppDbContext _context;
         private readonly IHttpContextAccessor _httpContextAccessor;
@@ -19,12 +19,12 @@ namespace Application.Events.Commands
             _httpContextAccessor = httpContextAccessor;
         }
 
-        public async Task<Result<EventResponse>> Handle(CreateEventQuery request, CancellationToken cancellationToken)
+        public async Task<Result<bool>> Handle(CreateEventQuery request, CancellationToken cancellationToken)
         {
             var userIdStr = _httpContextAccessor.HttpContext?.User?.FindFirst("id")?.Value;
             if (string.IsNullOrEmpty(userIdStr))
             {
-                return Result<EventResponse>.Failure("User not recognized");
+                return Result<bool>.Failure("User not recognized");
             }
             var userId = int.Parse(userIdStr);
 
@@ -36,7 +36,7 @@ namespace Application.Events.Commands
 
             if (existingEvent)
             {
-                return Result<EventResponse>.Failure("Event already exists");
+                return Result<bool>.Failure("Event already exists");
             }
 
             var newEvent = new Event
@@ -51,18 +51,7 @@ namespace Application.Events.Commands
             _context._events.Add(newEvent);
             await _context.SaveChangesAsync(cancellationToken);
 
-            var newResponse = new EventResponse
-            (
-                newEvent.Id,
-                newEvent.Name,
-                newEvent.DateAndTime,
-                newEvent.Location,
-                newEvent.Image,
-                newEvent.Description,
-                newEvent.OrganizerId
-            );
-
-            return Result<EventResponse>.Success(newResponse);
+            return Result<bool>.Success(true);
         }
     }
 }

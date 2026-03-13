@@ -20,7 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="EventAttendance\Queries\" />
+    <Folder Include="EventAttendances\Queries\" />
+    <Folder Include="Reviews\Queries\" />
   </ItemGroup>
 
 </Project>

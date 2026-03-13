@@ -1,0 +1,48 @@
+<div class="login-container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Prijava na sistem</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+      <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+        <div class="form-fields">
+          
+          <mat-form-field appearance="outline">
+            <mat-label>Email adresa</mat-label>
+            <input matInput 
+                   type="email" 
+                   name="email" 
+                   [(ngModel)]="credentials.email" 
+                   required 
+                   email
+                   placeholder="primer@mail.com">
+            <mat-icon matSuffix>email</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Lozinka</mat-label>
+            <input matInput 
+                   [type]="hidePassword ? 'password' : 'text'" 
+                   name="password" 
+                   [(ngModel)]="credentials.password" 
+                   required>
+            <button mat-icon-button matSuffix (click)="hidePassword = !hidePassword" type="button">
+              <mat-icon>{{hidePassword ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+          </mat-form-field>
+
+        </div>
+
+        <div class="actions">
+          <button mat-raised-button 
+                  color="primary" 
+                  type="submit" 
+                  [disabled]="!loginForm.valid">
+            Prijavi se
+          </button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>
